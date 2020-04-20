@@ -1,0 +1,31 @@
+
+.main a {
+    text-decoration: none;
+    color: #42554e;
+    font-weight: bold;
+}
+.image_search img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.blank {
+    clear: left;
+    width: inherit;
+    height: 10px;
+}
+.paging {
+    width: inherit;
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a {
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+
+.here {
+    background-color: cornflowerblue;
+}

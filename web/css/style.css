@@ -1,0 +1,74 @@
+
+body {
+    font-family:sans-serif;
+}
+.container {
+    background-image: url(../images/bg.jpg) ;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;    
+}
+.content {
+    width: 886px;
+    height: auto;
+    display: flex;
+}
+.main {
+    width: 428px;
+    min-height: 340px;
+    height: auto;
+    padding-left: 80px;
+    padding-right: 15px;
+    border-right: dashed 2px;
+    border-color: #e0e0e0;
+}
+.news {
+    width: inherit;
+    padding-top: 15px;
+    font-size: 13px;
+}
+.title {
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.image {
+    padding-bottom: 10px;
+}
+.image img {
+    width: 400px;
+    height: auto;
+}
+.text {
+    font-size: 13px;
+    line-height: 20px;
+}
+.underline {
+    padding-top: 30px;
+    width: inherit;
+    border-bottom: 1px solid #e0e0e0;
+}
+.signature {
+    float: right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.icon1 {
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+}
+.icon2 {
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+}
+.error {
+    text-align: center;
+    color: #42554e;
+}
